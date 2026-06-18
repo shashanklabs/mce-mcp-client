@@ -5,6 +5,8 @@ A custom [Model Context Protocol (MCP)](https://modelcontextprotocol.io) client 
 > ### You should know
 > This is a **proof of concept and learning project** for understanding the Model Context Protocol, OAuth 2.0 PKCE, and LLM function calling against Salesforce MCE. It runs on localhost and makes real Marketing Cloud changes against your live org via authenticated tool calls, with no audit trail or safety net beyond what MCE itself provides. Use it on a sandbox or developer org first, and review every tool call before approving destructive actions.
 
+<img width="1919" height="832" alt="Connected" src="https://github.com/user-attachments/assets/0577fe30-fa28-48b6-b894-0d3ec35f114c" />
+
 ## What it does
 
 Type in plain English. The LLM decides which MCE tool to call, executes it through the MCP server, and summarises the result — all in one conversation.
